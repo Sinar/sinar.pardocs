@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<layers>
+    <layer name="sinar.pardocs"
+        interface="sinar.pardocs.interfaces.IProductSpecific" />
+</layers>
