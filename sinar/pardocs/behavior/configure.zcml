@@ -6,4 +6,13 @@
 
     <!-- -*- extra stuff goes here -*- -->
 
+    <plone:behavior
+        title="Categories"
+        description="Categories"
+        provides=".categories.ICategories"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".categories.ICategories"
+        />
+
+
 </configure>
