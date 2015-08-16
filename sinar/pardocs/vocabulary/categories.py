@@ -26,6 +26,10 @@ class categories(grok.GlobalUtility):
         'title': 'Consumers',
     },
     {
+        'value': 'corruption',
+        'title': 'Corruption & Transparency',
+    },
+    {
     'value': 'defence',
         'title': 'Defence',
     },
