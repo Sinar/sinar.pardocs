@@ -70,8 +70,8 @@ class categories(grok.GlobalUtility):
         'title': 'Taxation',
     },
     {
-    'value': 'healthcare',
-        'title': 'Health Care',
+    'value': 'health',
+        'title': 'Health',
     },
     {
     'value': 'homeaffairs',

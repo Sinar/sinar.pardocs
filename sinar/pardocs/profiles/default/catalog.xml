@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<object name="portal_catalog">
+    <index name="pardocs_categories" meta_type="KeywordIndex">
+        <indexed_attr value="pardocs_categories"/>
+    </index>
+    <column value="pardocs_categories" />
+</object>
