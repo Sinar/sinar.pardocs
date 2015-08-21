@@ -105,6 +105,10 @@ class categories(grok.GlobalUtility):
     'value': 'naturaldisasters',
         'title': 'Natural Disasters',
     },
+    {
+        'value': 'tourism',
+        'title': 'Tourism',
+    },
     ]
 
     def __call__(self, context):
