@@ -4,4 +4,8 @@
         <indexed_attr value="pardocs_categories"/>
     </index>
     <column value="pardocs_categories" />
+    <index name="pardocs_core_hr" meta_type="KeywordIndex">
+        <indexed_attr value="pardocs_core_hr"/>
+    </index>
+    <column value="pardocs_core_hr" />
 </object>
