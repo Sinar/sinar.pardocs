@@ -7,8 +7,17 @@
     <!-- -*- extra stuff goes here -*- -->
 
     <plone:behavior
-        title="Categories"
-        description="Categories"
+        title="Core Human Rights Instruments"
+        description="The Core International Human Rights Instruments"
+        provides=".corehumanrightsinstruments.ICoreHumanRightsInstruments"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".corehumanrightsinstruments.ICoreHumanRightsInstruments"
+        />
+
+
+    <plone:behavior
+        title="Governance Categories"
+        description="General Governance Categories"
         provides=".categories.ICategories"
         for="plone.dexterity.interfaces.IDexterityContent"
         marker=".categories.ICategories"

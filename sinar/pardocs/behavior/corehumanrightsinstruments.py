@@ -7,29 +7,26 @@ from plone.autoform.interfaces import IFormFieldProvider
 
 from plone.namedfile import field as namedfile
 from z3c.relationfield.schema import RelationChoice, RelationList
-
 from plone.app.widgets.dx import SelectWidget
 from plone.autoform import directives
-
 from plone.formwidget.contenttree import ObjPathSourceBinder
 
 from sinar.pardocs import MessageFactory as _
 
-class ICategories(form.Schema):
+class ICoreHumanRightsInstruments(form.Schema):
     """
-       Marker/Form interface for Categories
+       Marker/Form interface for Core Human Rights Instruments
     """
 
     # -*- Your Zope schema definitions here ... -*-
-    form.fieldset('categorization', fields=['pardocs_categories'])
-    directives.widget('pardocs_categories', SelectWidget)
-    pardocs_categories = schema.List(
-            title = _(u'Categories'),
+    form.fieldset('categorization', fields=['pardocs_core_hr'])
+    directives.widget('pardocs_core_hr', SelectWidget)
+    pardocs_core_hr= schema.List(
+            title = _(u'Core International Human Rights Instruments'),
             value_type = schema.Choice(
-                vocabulary = "sinar.pardocs.categories",
+                vocabulary = 'ploneun.vocabulary.core_human_rights',
                 ),
             required=False,
             )
 
-
-alsoProvides(ICategories,IFormFieldProvider)
+alsoProvides(ICoreHumanRightsInstruments,IFormFieldProvider)

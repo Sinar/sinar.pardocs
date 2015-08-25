@@ -33,6 +33,7 @@ setup(name='sinar.pardocs',
           'collective.dexteritytextindexer',
           'plone.app.multilingual==2.0.0',
           'plone.app.versioningbehavior',
+          'plone.app.widgets',
           'five.pt',
           # -*- Extra requirements: -*-
       ],
