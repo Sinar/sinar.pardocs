@@ -27,7 +27,7 @@ class categories(grok.GlobalUtility):
     },
     {
         'value': 'corruption',
-        'title': 'Corruption & Transparency',
+        'title': 'Corruption and Transparency',
     },
     {
     'value': 'defence',
@@ -99,7 +99,7 @@ class categories(grok.GlobalUtility):
     },
     {
     'value': 'migrants',
-        'title': 'Migrants & Refugees',
+        'title': 'Migrants and Refugees',
     },
     {
     'value': 'naturaldisasters',
@@ -109,6 +109,10 @@ class categories(grok.GlobalUtility):
         'value': 'tourism',
         'title': 'Tourism',
     },
+    {
+        'value': 'gender',
+        'title': 'Women and Gender',
+        }
     ]
 
     def __call__(self, context):
