@@ -98,6 +98,10 @@ class categories(grok.GlobalUtility):
         'title': 'Labour Rights',
     },
     {
+            'value': 'localgov',
+            'title': 'Local Government',
+            },
+    {
     'value': 'migrants',
         'title': 'Migrants and Refugees',
     },
@@ -109,6 +113,10 @@ class categories(grok.GlobalUtility):
         'value': 'tourism',
         'title': 'Tourism',
     },
+    {
+            'value': 'transportation',
+            'title': 'Transportation',
+            },
     {
         'value': 'gender',
         'title': 'Women and Gender',
