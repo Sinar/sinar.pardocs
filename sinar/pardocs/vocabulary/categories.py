@@ -46,6 +46,10 @@ class categories(grok.GlobalUtility):
         'title': 'Education',
         },
     {
+        'value': 'employment',
+        'title': 'Employment',
+        },
+    {
         'value': 'energy',
         'title': 'Energy',
         },
@@ -84,6 +88,9 @@ class categories(grok.GlobalUtility):
     {
         'value': 'homeaffairs',
         'title': 'Home Affairs',
+        },
+    {   'value': 'housing',
+        'title': 'Housing',
         },
     {
         'value': 'humanresources',
