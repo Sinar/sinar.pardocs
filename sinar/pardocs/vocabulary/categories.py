@@ -12,115 +12,127 @@ class categories(grok.GlobalUtility):
     _terms = [{
         'value': 'agriculture',
         'title': 'Agriculture',
-    },
+        },
     {
-    'value': 'citizenship',
+        'value': 'citizenship',
         'title': 'Citizenship',
-    },
+        },
     {
-    'value': 'civilservice',
+        'value': 'civilservice',
         'title': 'Civil Service',
-    },
+        },
     {
-    'value': 'consumers',
+        'value': 'consumers',
         'title': 'Consumers',
-    },
+        },
+    {
+        'value': 'constitution',
+        'title': 'Constitutional',
+        },
     {
         'value': 'corruption',
         'title': 'Corruption and Transparency',
     },
     {
-    'value': 'defence',
+        'value': 'defence',
         'title': 'Defence',
-    },
+        },
     {
-    'value': 'economy',
+        'value': 'economy',
         'title': 'Economy',
     },
     {
-    'value': 'education',
+        'value': 'education',
         'title': 'Education',
-    },
+        },
     {
-    'value': 'energy',
+        'value': 'energy',
         'title': 'Energy',
-    },
+        },
     {
-    'value': 'environment',
+        'value': 'environment',
         'title': 'Environment',
-    },
+        },
     {
-    'value': 'fishery',
+        'value': 'finance',
+        'title': 'Finance',
+        },
+    {
+        'value': 'fishery',
         'title': 'Fishery',
-    },
+        },
     {
-    'value': 'foodsecurity',
+        'value': 'foodsecurity',
         'title': 'Food Security',
-    },
+        },
     {
-    'value': 'foreignaffairs',
+        'value': 'foreignaffairs',
         'title': 'Foreign Affairs',
-    },
-    {
-        'value': 'tariffsubsidy',
-        'title': 'Tariffs and Subsidies',
-    },
-    {
-    'value': 'glc',
-        'title': 'GLC',
-    },
-    {
-    'value': 'tax',
-        'title': 'Taxation',
-    },
-    {
-    'value': 'health',
-        'title': 'Health',
-    },
-    {
-    'value': 'homeaffairs',
-        'title': 'Home Affairs',
-    },
-    {
-    'value': 'humanresources',
-        'title': 'Human Resources',
-    },
-    {
-    'value': 'humanrights',
-        'title': 'Human Rights',
-    },
-    {
-    'value': 'indigenous',
-        'title': 'Indigenous Affairs',
-    },
-    {
-    'value': 'labour',
-        'title': 'Labour Rights',
-    },
-    {
-            'value': 'localgov',
-            'title': 'Local Government',
-            },
-    {
-    'value': 'migrants',
-        'title': 'Migrants and Refugees',
-    },
-    {
-    'value': 'naturaldisasters',
-        'title': 'Natural Disasters',
-    },
-    {
-        'value': 'tourism',
-        'title': 'Tourism',
-    },
-    {
-            'value': 'transportation',
-            'title': 'Transportation',
-            },
+        },
     {
         'value': 'gender',
         'title': 'Women and Gender',
-        }
+        },
+    {
+        'value': 'glc',
+        'title': 'GLC',
+        },
+    {
+        'value': 'health',
+        'title': 'Health',
+        },
+    {
+        'value': 'homeaffairs',
+        'title': 'Home Affairs',
+        },
+    {
+        'value': 'humanresources',
+        'title': 'Human Resources',
+        },
+    {
+        'value': 'humanrights',
+        'title': 'Human Rights',
+        },
+    {
+        'value': 'indigenous',
+        'title': 'Indigenous Affairs',
+        },
+    {
+        'value': 'labour',
+        'title': 'Labour Rights',
+        },
+    {
+        'value': 'localgov',
+        'title': 'Local Government',
+        },
+    {
+        'value': 'migrants',
+        'title': 'Migrants and Refugees',
+        },
+    {
+        'value': 'naturaldisasters',
+        'title': 'Natural Disasters',
+        },
+    {
+        'value': 'tariffsubsidy',
+        'title': 'Tariffs and Subsidies',
+        },
+    {
+        'value': 'tax',
+        'title': 'Taxation',
+        },
+    {
+        'value': 'trade',
+        'title': 'Trade',
+            },
+    {
+        'value': 'transportation',
+        'title': 'Transportation',
+        },
+    {
+        'value': 'tourism',
+        'title': 'Tourism',
+        },
     ]
 
     def __call__(self, context):
