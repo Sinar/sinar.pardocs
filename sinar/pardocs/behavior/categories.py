@@ -8,10 +8,7 @@ from plone.autoform.interfaces import IFormFieldProvider
 from plone.namedfile import field as namedfile
 from z3c.relationfield.schema import RelationChoice, RelationList
 
-from plone.app.widgets.dx import SelectWidget
 from plone.autoform import directives
-
-from plone.formwidget.contenttree import ObjPathSourceBinder
 
 from sinar.pardocs import MessageFactory as _
 
@@ -22,7 +19,6 @@ class ICategories(form.Schema):
 
     # -*- Your Zope schema definitions here ... -*-
     form.fieldset('categorization', fields=['pardocs_categories'])
-    directives.widget('pardocs_categories', SelectWidget)
     pardocs_categories = schema.List(
             title = _(u'Categories'),
             value_type = schema.Choice(

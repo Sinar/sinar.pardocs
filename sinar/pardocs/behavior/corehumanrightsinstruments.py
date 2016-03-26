@@ -7,9 +7,7 @@ from plone.autoform.interfaces import IFormFieldProvider
 
 from plone.namedfile import field as namedfile
 from z3c.relationfield.schema import RelationChoice, RelationList
-from plone.app.widgets.dx import SelectWidget
 from plone.autoform import directives
-from plone.formwidget.contenttree import ObjPathSourceBinder
 
 from sinar.pardocs import MessageFactory as _
 
@@ -20,7 +18,6 @@ class ICoreHumanRightsInstruments(form.Schema):
 
     # -*- Your Zope schema definitions here ... -*-
     form.fieldset('categorization', fields=['pardocs_core_hr'])
-    directives.widget('pardocs_core_hr', SelectWidget)
     pardocs_core_hr= schema.List(
             title = _(u'Core International Human Rights Instruments'),
             value_type = schema.Choice(
