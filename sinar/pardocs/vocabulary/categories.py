@@ -121,6 +121,11 @@ class categories(grok.GlobalUtility):
         'title': 'Natural Disasters',
         },
     {
+        'value': 'sports',
+        'title': 'Sports and Recreation',
+        },
+
+    {
         'value': 'tariffsubsidy',
         'title': 'Tariffs and Subsidies',
         },
